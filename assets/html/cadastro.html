@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/logo_flix.png" type="image/x-icon">
+    <link href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css" rel="stylesheet">
+    <title>Registre-se</title>
+
+</head>
+
+<body>
+    <header>
+        <img id="logo-germina-flix" src="../img/logo_flix.png" alt="logo do site" width="100px">
+    </header>
+
+    <div class="container">
+        <form id="formulario-registro">
+            <h1>Registre-se</h1>
+            <div class="caixa-entrada">
+                <input type="text" placeholder="Crie um nome" required class="entrada" id="usuario-cadastro">
+                <i class="fi fi-sr-user"></i>
+            </div>
+
+            <div class="caixa-entrada">
+                <input type="email" placeholder="Email" required class="entrada" id="email-cadastro">
+                <i class="fi fi-sr-envelope"></i>
+            </div>
+
+            <div class="caixa-entrada">
+
+                <input type="password" placeholder="Senha" required class="entrada" id="senha-cadastro">
+                <i class="fi fi-sr-lock"></i>
+            </div>
+
+            <p id="mensagem-erro-cadastro" style="color: red; margin-top: 5px; white-space: pre-wrap;"></p>
+            <br>
+
+            <div class="lembrar-esqueci">
+                <label><input type="checkbox"> Lembrar-me</label>
+            </div>
+
+            <button type="button" class="botao" id="cadastrar">Cadastrar</button>
+
+            <div class="link-registro">
+                <br>
+                <p>Já tem conta? <a href="../../index.html">Login</a></p>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Todos os direitos reservados - Emilly Dantas &copy;</p>
+    </footer>
+
+    <script src="../js/validacao_de_dados.js"></script>
+</body>
+
+</html>
